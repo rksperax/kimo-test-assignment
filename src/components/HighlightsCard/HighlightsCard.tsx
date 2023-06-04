@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import { colors } from "@/constants/colors";
 import { Box, Text } from "@chakra-ui/react";
