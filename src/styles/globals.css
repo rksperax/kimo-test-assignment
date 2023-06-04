@@ -1,0 +1,59 @@
+/* Reset box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Reset font styles */
+
+/* fonts.css */
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("../../public/IBMPlexMono-Regular.ttf") format("truetype");
+}
+
+/* Add any other reset styles as needed */
+
+.heading-text {
+  font-size: 140px;
+  line-height: 132px;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 6.44%,
+    #ffffff 95.08%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.swiper {
+  padding-bottom: 10px !important;
+}
